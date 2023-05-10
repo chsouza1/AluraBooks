@@ -19,12 +19,13 @@
 
 .swiper-pagination {
     position: initial;
-    margin: .5em 0.5;
+    margin: .5em 0;
 }
 
 .card__descricao{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .card__botoes {

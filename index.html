@@ -12,7 +12,10 @@
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>   
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -44,9 +47,39 @@
                 </li>
             </ul>
         <img src="img/Logo.svg" alt="logo do AluraBooks" class="container__imagem">
+        <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b><h2 class="titulo__books">Books</h2></h1>
         </div>
+
+        <ul class="opçoes">
+            <input type="checkbox" id="opçoes__menu" class="opçoes__botao">
+            <label for="opçoes__menu">
+                <li class="opçoes__item">Categorias</li>
+            </label>
+            
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opçoes__item"><a href="#" class="opçoes__link">Favoritos</a></li>
+            <li class="opçoes__item"><a href="#" class="opçoes__link">Minha Estante</a></li>
+        </ul>
+
         <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem-cleam"></a>
             <a href="#"><img src="img/Compras.svg" alt="Minhas Compras" class="container__imagem"></a> 
             <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -149,6 +182,48 @@
         </div>                
     </div>
 </section>
+
+<section class="topicos">
+    <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="topicos__lista">
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">Android</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">Marketing Digital</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">Agile</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">Startups</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">HTML & CSS</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">Python</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">OO</a>
+        </li>
+        <li class="topicos__item">
+            <a href="#" class="topicos__link">Java</a>
+        </li>
+    </ul>
+</section>
+
+<section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email"> 
+</section>
+
+<hr />
+
+<footer class="rodape">
+    <h2 class="rodape__titulo"> Desenvolvido Por Carlos Henrique / Grupo Alura </h2>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
