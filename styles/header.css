@@ -129,7 +129,7 @@
         color: var(--laranja);
     }
 
-    .opçoes__botao:checked~ .lista-menu {
+    .opçoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
     }
@@ -137,4 +137,11 @@
     .opçoes__botao {
         display: none;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__links{
+        display: flex;
+    }
+
 }
