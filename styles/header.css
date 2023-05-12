@@ -80,6 +80,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 .titulo__books {
     color: var(--laranja);
 }
@@ -139,9 +143,19 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1680px) {
     .container__links{
         display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
     }
 
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opçoes {
+        margin-right: auto;
+    }
 }
